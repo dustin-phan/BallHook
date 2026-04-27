@@ -38,6 +38,7 @@ public class BallPlayerController2D : MonoBehaviour
     public AudioSource sfxhookAudioSource;
     public AudioSource sfxdetachAudioSource;
     public float minRollSpeedForSound = 0.25f;
+
     [Header("VFX")]
     public GameObject hookAttachVfx;
     public GameObject hookDetachVfx;
@@ -83,8 +84,8 @@ public class BallPlayerController2D : MonoBehaviour
         ropeRenderer.widthMultiplier = 0.08f;
         ropeRenderer.numCapVertices = 4;
         ropeRenderer.material = new Material(Shader.Find("Sprites/Default"));
-        ropeRenderer.startColor = new Color(0.97f, 0.87f, 0.39f, 1f);
-        ropeRenderer.endColor = new Color(0.97f, 0.87f, 0.39f, 1f);
+        ropeRenderer.startColor = new Color(115f, 115f, 115f, 1f);
+        ropeRenderer.endColor = new Color(115f, 115f, 115f, 1f);
         ropeRenderer.sortingOrder = 10;
     }
 
