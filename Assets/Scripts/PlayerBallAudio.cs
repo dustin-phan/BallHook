@@ -23,38 +23,5 @@ public class PlayerBallAudio : MonoBehaviour
         if (rollSource != null)
             rollSource.volume = sliderValue * rollMaxVolume;
     }
-    public void PauseSFX()
-    {
-        if (hookSource != null && hookSource.isPlaying)
-            hookSource.Pause();
 
-        if (detachSource != null && detachSource.isPlaying)
-            detachSource.Pause();
-
-        if (rollSource != null && rollSource.isPlaying)
-            rollSource.Pause();
-    }
-    public void ResumeSFX()
-    {
-        if (hookSource != null)
-            hookSource.UnPause();
-
-        if (detachSource != null)
-            detachSource.UnPause();
-
-        if (rollSource != null)
-            rollSource.UnPause();
-
-    }
-    public void StopSFX()
-    {
-        if (hookSource != null)
-            hookSource.Stop();
-
-        if (detachSource != null)
-            detachSource.Stop();
-
-        if (rollSource != null)
-            rollSource.Stop();
-    }
 }
