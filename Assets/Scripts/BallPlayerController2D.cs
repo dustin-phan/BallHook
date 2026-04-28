@@ -107,10 +107,10 @@ public class BallPlayerController2D : MonoBehaviour
 
     moveInput = Input.GetAxisRaw("Horizontal");
 
-    retractHeld = Input.GetMouseButton(0);
-    extendHeld = Input.GetMouseButton(1);
+    retractHeld = Input.GetKey(KeyCode.Space); 
+    extendHeld = Input.GetKey(KeyCode.LeftShift);
 
-    if (Input.GetKeyDown(KeyCode.Space))
+    if (Input.GetMouseButtonDown(0)) 
     {
         if (isHooked)
         {

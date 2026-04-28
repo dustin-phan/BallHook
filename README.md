@@ -16,9 +16,9 @@ The goal is to reach the top of the course as quickly as possible. Mistakes can 
 
 ## Controls
 - **A / D** — Move
-- **Space** — Hook / detach
-- **Left Click** — Retract rope
-- **Right Click** — Extend rope
+- **Left Click** — Hook / detach
+- **Space** — Retract rope
+- **Shift** — Extend rope
 - **Esc** — Pause
 
 ## Tech
